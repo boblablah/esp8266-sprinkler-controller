@@ -1,12 +1,12 @@
 # BEGIN SUBSTITUTIONS
 substitutions:
-  name: "esp8266-esp01-01"
-  friendly_name: "BackYard Sprinklers"
+  name: "put your device name here"
+  friendly_name: "Wifi Sprinkler Controller"
   # Allows ESP device to be automatically lined to an 'Area' in Home Assistant. Typically used for areas such as 'Lounge Room', 'Kitchen' etc
   device_description: "esp8266-esp01-1M with 4 channel uart relay"
   sensor_update_interval: "10s"
   # Set timezone of the smart plug. Useful if the plug is in a location different to the HA server. Can be entered in unix Country/Area format (i.e. "Australia/Sydney")
-  timezone: "America/Regina"
+  timezone: "timezone"
   # Set the duration between the sntp service polling ntp.org servers for an update
   sntp_update_interval: "6h"
   # Network time servers for your region, enter from lowest to highest priority. To use local servers update as per zones or countries at: https://www.ntppool.org/zone/@
